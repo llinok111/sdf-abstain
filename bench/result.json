@@ -1,0 +1,43 @@
+{
+  "sphere": {
+    "vertices": 1986,
+    "faces": 3968,
+    "watertight": true
+  },
+  "open_sphere": {
+    "vertices": 482,
+    "faces": 736,
+    "degenerate": 0,
+    "boundary": 32,
+    "nonManifold": 0,
+    "flipped": 0,
+    "watertight": false,
+    "min": [
+      -1,
+      -1,
+      -1
+    ],
+    "max": [
+      1,
+      1,
+      1
+    ]
+  },
+  "queries": {
+    "distance": 20000,
+    "brute": 1000,
+    "sign": 1000
+  },
+  "timing": {
+    "bvh_20k_seconds": 0.459178607,
+    "brute_1k_seconds": 0.217761071,
+    "brute_projected_20k_seconds": 4.35522142,
+    "speedup_projected": 9.484809077788766
+  },
+  "max_abs_distance_error_vs_brute": 0,
+  "sign": {
+    "checked": 1000,
+    "mismatches": 0
+  },
+  "open_mesh_abstained": 1000
+}

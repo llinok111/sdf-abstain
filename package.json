@@ -1,0 +1,14 @@
+{
+  "name": "sdf-abstain",
+  "version": "0.1.0",
+  "description": "Point-to-mesh signed distance with an explicit sign abstention on open/non-manifold meshes",
+  "type": "module",
+  "main": "src/core.mjs",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "bench": "node bench/bench.mjs"
+  },
+  "license": "MIT",
+  "author": "llinok111",
+  "engines": {"node": ">=20"}
+}
